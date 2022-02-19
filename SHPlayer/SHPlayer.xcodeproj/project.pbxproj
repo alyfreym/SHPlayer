@@ -15,22 +15,7 @@
 		967404AE27C12BEB0047AF24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967404AC27C12BEB0047AF24 /* LaunchScreen.storyboard */; };
 		967404B127C12BEB0047AF24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 967404B027C12BEB0047AF24 /* main.m */; };
 		967404CD27C12C490047AF24 /* libSHPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967404CC27C12C490047AF24 /* libSHPlayer.framework */; };
-		967404CE27C12C490047AF24 /* libSHPlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 967404CC27C12C490047AF24 /* libSHPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		967404CF27C12C490047AF24 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				967404CE27C12C490047AF24 /* libSHPlayer.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9674049B27C12BEA0047AF24 /* SHPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,7 +98,6 @@
 				9674049727C12BEA0047AF24 /* Sources */,
 				9674049827C12BEA0047AF24 /* Frameworks */,
 				9674049927C12BEA0047AF24 /* Resources */,
-				967404CF27C12C490047AF24 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -339,7 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhenqu.MediaEngineDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -367,7 +351,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhenqu.MediaEngineDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
